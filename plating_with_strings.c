@@ -18,7 +18,6 @@ int main(){
         fgets(str, sizeof(str), stdin);
         str[strcspn(str, "\n")] = '\0'; // remove trailing newline
         
-        // Debug: show what string we got
         printf("String received: '%s' (length: %zu)\n", str, strlen(str));
         
         printf("Choose a shape to display the string:\n");
